@@ -3,7 +3,6 @@ StarterGui:SetCore("SendNotification", {
 		Title = "METH.FUN CAMLOCK";
 		Text = "Press P to Enable/Disable"
 	})
-end)
 
 getgenv().Prediction = 0.13685
 getgenv().AimPart = "HumanoidRootPart"
