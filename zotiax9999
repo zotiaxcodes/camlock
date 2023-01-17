@@ -1,10 +1,9 @@
-function Notify(tx)
-    SG:SetCore("SendNotification", {
-        Title = "Disabel Key P | METH.FUN",
-        Text = tx,
-        Duration = 10
-    })
-end
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+		Title = "METH.FUN CAMLOCK";
+		Text = "Press P to Enable/Disable"
+	})
+end)
 
 getgenv().Prediction = 0.13685
 getgenv().AimPart = "HumanoidRootPart"
